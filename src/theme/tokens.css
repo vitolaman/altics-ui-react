@@ -1,0 +1,47 @@
+:root {
+  --color-background: 0 0% 100%;
+  --color-foreground: 222 47% 11%;
+  --color-primary: 222 47% 11%;
+  --color-primary-foreground: 210 40% 98%;
+  --color-secondary: 210 40% 96%;
+  --color-secondary-foreground: 222 47% 11%;
+  --color-muted: 210 40% 96%;
+  --color-muted-foreground: 215 16% 47%;
+  --color-border: 214 32% 91%;
+  --color-input: 214 32% 91%;
+  --color-ring: 222 89% 55%;
+  --color-destructive: 0 72% 51%;
+  --color-destructive-foreground: 210 40% 98%;
+}
+.dark {
+  --color-background: 222 47% 11%;
+  --color-foreground: 210 40% 98%;
+  --color-primary: 210 40% 98%;
+  --color-primary-foreground: 222 47% 11%;
+  --color-secondary: 217 33% 18%;
+  --color-secondary-foreground: 210 40% 98%;
+  --color-muted: 217 33% 18%;
+  --color-muted-foreground: 215 20% 65%;
+  --color-border: 217 33% 22%;
+  --color-input: 217 33% 22%;
+  --color-ring: 213 94% 68%;
+  --color-destructive: 0 63% 31%;
+  --color-destructive-foreground: 210 40% 98%;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not(.light):not(.dark) {
+    --color-background: 222 47% 11%;
+    --color-foreground: 210 40% 98%;
+    --color-primary: 210 40% 98%;
+    --color-primary-foreground: 222 47% 11%;
+    --color-secondary: 217 33% 18%;
+    --color-secondary-foreground: 210 40% 98%;
+    --color-muted: 217 33% 18%;
+    --color-muted-foreground: 215 20% 65%;
+    --color-border: 217 33% 22%;
+    --color-input: 217 33% 22%;
+    --color-ring: 213 94% 68%;
+    --color-destructive: 0 63% 31%;
+    --color-destructive-foreground: 210 40% 98%;
+  }
+}
