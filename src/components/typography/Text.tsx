@@ -10,24 +10,57 @@ interface TextProps extends HTMLAttributes<HTMLElement> {
   /**
    * Visual style variant
    * @default "body"
+   * @option "body"
+   * @option "caption"
+   * @option "label"
    */
   variant?: TextVariant;
 
   /**
    * Text size
    * @default "md"
+   * @option "xs"
+   * @option "sm"
+   * @option "md"
+   * @option "lg"
+   * @option "xl"
+   * @option "2xl"
+   * @option "txl"
+   * @option "tlg"
+   * @option "tsm"
+   * @option "txs"
+   * @option "txxs"
    */
   size?: TextSize;
 
   /**
    * Font weight
    * @default "regular"
+   * @option "regular"
+   * @option "medium"
+   * @option "semibold"
+   * @option "bold"
    */
   weight?: TextWeight;
 
   /**
    * Text color from design system
    * @default "primary"
+   * @option "primary"
+   * @option "secondary"
+   * @option "tertiary"
+   * @option "quaternary"
+   * @option "disabled"
+   * @option "white"
+   * @option "inverse"
+   * @option "link"
+   * @option "link-hover"
+   * @option "error"
+   * @option "warning"
+   * @option "success"
+   * @option "brand-primary"
+   * @option "brand-secondary"
+   * @option "brand-tertiary"
    */
   color?: TextColor;
 
@@ -39,6 +72,12 @@ interface TextProps extends HTMLAttributes<HTMLElement> {
 
   /**
    * Number of lines before truncation
+   * @option 1
+   * @option 2
+   * @option 3
+   * @option 4
+   * @option 5
+   * @option 6
    */
   lines?: number;
 
